@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './App.css';
 
 class Clock extends Component {
 
@@ -19,8 +20,12 @@ class Clock extends Component {
 
   render() {
     return (<>
-      <ClockTime date={this.state.date} />
-      <ClockDate date={this.state.date} />
+      <div className="wrapper">
+        <div className="mainApp">
+          <ClockTime date={this.state.date} />
+          <ClockDate date={this.state.date} />
+        </div>
+      </div>
     </>);
   }
 }
