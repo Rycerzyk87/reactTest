@@ -19,14 +19,15 @@ class Clock extends Component {
   }
 
   render() {
-    return (<>
-      <div className="wrapper">
-        <div className="mainApp">
-          <ClockTime date={this.state.date} />
-          <ClockDate date={this.state.date} />
+    return (
+      <>
+        <div className="wrapper">
+          <div className="mainApp">
+            <ClockTime date={this.state.date} />
+            <ClockDate date={this.state.date} />
+          </div>
         </div>
-      </div>
-    </>);
+      </>);
   }
 }
 
