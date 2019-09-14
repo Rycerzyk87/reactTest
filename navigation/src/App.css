@@ -3,13 +3,19 @@
   padding: 0;
   box-sizing: border-box;
   font-family: arial, sans-serif;
+  text-align: center;
 }
-
+html{
+  background-color: cornflowerblue;
+}
 .main{
   max-width: 1024px;
-  /* text-align: center; */
+  margin: 0 auto;
+  background-color: aliceblue;
 }
 nav {
+  width: 80%;
+  margin: 25px auto;
   background-color: black;
 }
 ul {
@@ -34,6 +40,7 @@ a{
   transition: 0.5s;
   
 }
+
 .active{
   /* color: black; */
   background-color: gray;
@@ -44,4 +51,5 @@ a{
 
 section {
   padding-top: 5%;
+  padding-bottom: 5%;
 }
